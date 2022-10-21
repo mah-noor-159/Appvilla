@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.btn1{
+    @apply  bg-pink-600 text-white  p-5 rounded-xl hover:bg-slate-400
+}
+.users{
+    @apply justify-evenly
+}
+.list{
+    @apply gap-x-6 mt-9
+}
+.list h2{
+    @apply font-semibold pl-8
+}
+.list p{
+    @apply pl-8 pt-6
+}
+.list h1{
+    @apply font-bold text-2xl pl-6
+}
+.list li{
+    @apply leading-loose
+}
+.list h3{
+    @apply pt-7 pb-8
+}
+.team{
+    @apply mt-8 mx-8 border-2 border-slate-500 rounded-lg leading-loose
+}
+.grid-cols-2{
+    @apply mt-16
+    mr-4 text-gray-400
+}
+.grid-cols-2 h3{
+    @apply text-xl font-bold text-gray-200 mb-8
+}
+/* .btn{
+    background: #ff6b81;
+    color: #fff;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 30px;
+    border-radius: 5px;
+}
+.preloader{
+    height: 48px;
+    width: 300px;
+    color: #fff;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #fff3;
+    border-radius: 5px;
+} */
